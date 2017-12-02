@@ -4,6 +4,6 @@ This project is built with [The Haskell Tool Stack](https://docs.haskellstack.or
 
 ## Build
 ```sh
-stack build
 stack build --ghc-options -threaded
+stack exec graphql-haskell-exec
 ```
